@@ -18,7 +18,8 @@ int isPrime(int number)
 // to check entered number is prime
 int primeNumber(){
     int number;
-    printf("Enter a number: ");
+    //only integers can be taken as input to check prime numbers
+    printf("Enter a integer number number: ");
     scanf("%d",&number);
     if(!isPrime(number)){
         printf("%d is a prime number",number);
